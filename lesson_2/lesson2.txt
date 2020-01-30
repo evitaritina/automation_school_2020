@@ -1,0 +1,9 @@
+Theory:
+Defining methods(repetition)
+The main Method
+Overloading
+
+Practice Create personal repo in GitHub repo
+Add file README.MD
+
+https://cyber-dojo.org/
