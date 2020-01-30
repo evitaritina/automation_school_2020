@@ -1,0 +1,25 @@
+Theory on Hyperskill
+Types and variables(repetition)
+Array(repetition)
+Maven Basics
+Gradle Basics
+Java archive
+Dependency Management
+Simplest Project with Maven
+
+Practice:
+Write test for this class, specifications in comments:
+public static double getWordComplexity(String word){
+        /*
+        Calculate complexity using following formula:
+        1. each letter r (any cases) is +1.
+        2. Each syllable is 0.5.
+        For example margarins has 3 syllabes: mar-ga-rins
+        and has 2 r letters, which is complexity 3.5
+         */
+        word = word.toLowerCase() + "_";
+        Double complexity = 0.0;
+        complexity += word.split(("r")).length - 1;
+        complexity += (word.split("[a,a,e,e,i,i,o,u,u]").length-1)*0.5;
+        return complexity;
+    }
